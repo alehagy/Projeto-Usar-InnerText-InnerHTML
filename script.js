@@ -36,6 +36,7 @@
 
 //altera conteudo ol
 let elementol = document.querySelector ("ol")
-elementol.innerHTML = "<ol><a href="https://facebook.com"></a></ol><ol><a href="https://youtube.com"></a></ol><ol><a href="https://oracle.com"></a></ol>"
 
-console.log(ol)
+elementol.innerHTML = "<ol><a href='https://facebook.com'></a></ol><ol><a href='https://youtube.com'></a></ol><ol><a href='https://oracle.com'></a></ol>"
+
+console.log(elementol)
